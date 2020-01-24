@@ -169,7 +169,6 @@ header.header {
 
 .item-expla {
 	padding: 70px 20px;
-	height: 400px;
 	color: #c2c6d3;
 }
 
@@ -178,9 +177,79 @@ header.header {
 	color: #8844ee;
 }
 
-.item-expla h2 {
+.box-info-expla {
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: space-between; */
+	margin-bottom: 30px;
+}
+
+.info-text {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.info-text > .title {
 	color: inherit;
 	font-size: 3em;
 	font-weight: 700;
 	line-height: 48px;
+	margin-bottom: 25px;
+}
+
+.box-text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box-text .text {
+	margin-right: 45px;
+}
+
+.info-code {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: end;
+}
+
+.info-code .title {
+	font-size: 1em;
+}
+
+.info-code .text {
+	max-width: 500px;
+	color: #6e7f84;
+	font-weight: 400;
+	line-height: 20px;
+	font-size: 0.875em;
+}
+
+.info-code .title .property,
+.info-code .title .value {
+	font-size: 1em;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.info-code .title .property {
+	color: #99c791;
+}
+
+.info-code .title .value {
+	color: #ba94c5;
+}
+
+.box-codeopen {
+	height: 320px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid;
+	margin: 1em 0;
+	padding: 1em;
+	background-color: #26353e;
 }
