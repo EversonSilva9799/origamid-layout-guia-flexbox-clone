@@ -18,7 +18,7 @@ img {
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Nunito', sans-serif;
 	color: rgb(22, 22, 22);
 }
 
@@ -63,7 +63,7 @@ html {
 }
 
 .list .item {
-	padding: 8px 15px 8px 22px;
+	padding: 4px 15px 8px 22px;
 }
 
 .list .item:nth-child(2n) {
